@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
 
         <div className="text-center md:text-right">
           <p className="text-xs text-brand-muted">&copy; {new Date().getFullYear()} Ирина Субботина. Все права защищены.</p>
-          <p className="text-xs text-brand-muted mt-2">Разработано с заботой о вашей красоте.</p>
+          <a href="https://it.burxan.ru" className="hover:text-brand-gold transition-colors">Разработано с заботой о вашей красоте.</a>
         </div>
       </div>
     </footer>

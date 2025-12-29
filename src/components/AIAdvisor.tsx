@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { getSkinAdvice } from '../src/services/gemini';
+import { getSkinAdvice } from '../services/gemini';
 
 const AIAdvisor: React.FC = () => {
   const [query, setQuery] = useState('');
